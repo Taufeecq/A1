@@ -1,0 +1,13 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python src/train.py
+    deps:
+    - path: data/anime.csv
+      hash: md5
+      md5: 9afdf85150397c58ea11ee5814709938
+      size: 6999856
+    - path: src/train.py
+      hash: md5
+      md5: 780eae17bb214b2223f0c0541b506948
+      size: 101
