@@ -1,0 +1,5 @@
+outs:
+- md5: 8262c780a816c18de8e2b60ce17bd0ca
+  size: 6999841
+  hash: md5
+  path: anime.csv
